@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Berk</title>
+    <style>
+        body{
+        background-image: url("https://resimdiyari.com/_data/i/upload/2012/10/11/20121011142538-0d933501-me.jpg");
+        }
+        ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space around;
+        list-style-type: none;
+        }
+        p{
+        font-size:50px;
+        display: inline-block;
+        with: 2em;
+        height: 1.5em;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        }
+        input{
+        font-size: 30px;
+        background-color: yellow;
+        color: blue;
+        border-radius: 10px;
+        margin: 1.5rem;
+        }
+        button{
+        font-size: 40px;
+        background-color: red;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+<form action="/kayit" method="post">
+
+    <ul>
+        <li><p>Kullanıcı adı belirle:</p></li>
+
+
+        <li><input type="text" name="bir"></li>
+
+
+        <li><p>Şifre belirle:</p></li>
+
+
+        <li><input type="password" name="iki"></li>
+
+
+    <li><button type="submit">Oluştur</button></li>
+    </ul>
+    </form>
+</body>
+</html>
